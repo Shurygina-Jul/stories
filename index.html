@@ -9,8 +9,11 @@
     <div class="player">
       <!-- Линия времени -->
       <div class="timeline">
+        <div class="timeline-chunk timeline-chunk-active">
+          <div class="timeline-chunk-inner"></div>
+        </div>
         <div class="timeline-chunk">
-          <div class="timeline-chunk-inner" style="width: 100%"></div>
+          <div class="timeline-chunk-inner"></div>
         </div>
         <div class="timeline-chunk">
           <div class="timeline-chunk-inner"></div>
@@ -28,6 +31,13 @@
 
         <!-- Контент -->
         <div class="player-chunk player-chunk-active">
+          <img
+            src="./img/tuna_salad.jpeg"
+            alt="tuna_salad"
+            style="width: 100%"
+          />
+        </div>
+        <div class="player-chunk">
           <img src="./img/tuna_salad.jpeg" alt="tuna_salad" />
         </div>
         <div class="player-chunk">
@@ -38,5 +48,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
