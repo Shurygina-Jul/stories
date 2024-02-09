@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Stories App</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="player">
+      <!-- Линия времени -->
+      <div class="timeline">
+        <div class="timeline-chunk">
+          <div class="timeline-chunk-inner" style="width: 100%"></div>
+        </div>
+        <div class="timeline-chunk">
+          <div class="timeline-chunk-inner"></div>
+        </div>
+        <div class="timeline-chunk">
+          <div class="timeline-chunk-inner"></div>
+        </div>
+      </div>
+
+      <!-- Сам плейер с контентом -->
+      <div class="player-content">
+        <!-- Элементы управления -->
+        <div class="player-chunk-switcher player-chunk-prev"></div>
+        <div class="player-chunk-switcher player-chunk-next"></div>
+
+        <!-- Контент -->
+        <div class="player-chunk player-chunk-active">
+          <img src="./img/tuna_salad.jpeg" alt="tuna_salad" />
+        </div>
+        <div class="player-chunk">
+          <img src="./img/tuna_salad.jpeg" alt="tuna_salad" />
+        </div>
+        <div class="player-chunk">
+          <img src="./img/tuna_salad.jpeg" alt="tuna_salad" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
